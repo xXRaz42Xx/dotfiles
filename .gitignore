@@ -1,0 +1,84 @@
+# Common files to ignore in dotfiles repository
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.*.un~
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+*.bak
+*.orig
+
+# Shell history files
+.bash_history
+.zsh_history
+.zsh_sessions/
+
+# Local configuration files that should not be committed
+.local/
+.cache/
+.config/local/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+.dockerignore
+Dockerfile
+
+# Secrets
+*.key
+*.pem
+.env
+.env.local
+.env.*.local
+
+# Git
+.git/
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Archive files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.out
+
+# IDE workspace files
+*.code-workspace
